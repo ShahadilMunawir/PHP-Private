@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payslip</title>
+    </head>
+    <body>
+        <center>
+            <form action="payslip.php" method="POST">
+                <h1>Employee Information</h1>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name">
+                <br>
+                <label for="position">Position: </label>
+                <select name="position" id="position">
+                    <option value="Manager">Manager</option>
+                    <option value="Supervisor">Supervisor</option>
+                    <option value="Clerk">Clerk</option>
+                    <option value="Peon">Peon</option>
+                </select>
+                <br>
+                <label for="salary">Salary: </label>
+                <input type="text" name="salary" id="salary">
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </center>
+        <?php
+            
+        ?>
+    </body>
+</html>
